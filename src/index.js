@@ -1,3 +1,4 @@
+import 'basiclightbox/dist/basiclightbox.min.css';
 import { renderCardsMarcup } from './helpers/renderCardsMarcup';
 import { refs } from './partials/refs';
 import { openModalHendler } from './helpers/openModalHendler';
