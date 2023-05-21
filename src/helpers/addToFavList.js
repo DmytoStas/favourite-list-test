@@ -1,6 +1,5 @@
 import { common } from '../partials/common';
 import { findProductByID } from './findProductByID';
-// import { refs } from '../partials/refs';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const favArray = JSON.parse(localStorage.getItem(common.KEY_favorite)) ?? [];

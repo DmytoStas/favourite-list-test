@@ -1,4 +1,4 @@
-import { refs } from '../partials/refs.js';
+import { refs } from '../partials/refs';
 
 export function renderCardsMarcup(data) {
   let cardsMurcup = '';

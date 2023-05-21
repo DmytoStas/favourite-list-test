@@ -1,10 +1,10 @@
 import * as basicLightbox from 'basiclightbox';
-import '../../node_modules/basiclightbox/dist/basiclightbox.min.css';
+import 'basiclightbox/dist/basiclightbox.min.css';
 
-import { closeModal } from './closeModal.js';
-import { onfavoriteClick } from './addToFavList.js';
-import { onRemoveFavClick } from './addRemoveBtnsEvtListeners.js';
-import { refs } from '../partials/refs.js';
+import { closeModal } from './closeModal';
+import { onfavoriteClick } from './addToFavList';
+import { onRemoveFavClick } from './addRemoveBtnsEvtListeners';
+import { refs } from '../partials/refs';
 
 let modalFavButton = {};
 
