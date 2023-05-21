@@ -7,7 +7,7 @@ import { onRemoveFavClick } from './addRemoveBtnsEvtListeners';
 import { refs } from '../partials/refs';
 
 let modalFavButton = {};
-
+//
 function createModal(product) {
   let instance = {};
   const options = {
