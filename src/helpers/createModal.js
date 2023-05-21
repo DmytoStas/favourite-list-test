@@ -1,5 +1,5 @@
 import * as basicLightbox from 'basiclightbox';
-import 'basiclightbox/dist/basiclightbox.min.css';
+import '../../node_modules/basiclightbox/dist/basiclightbox.min.css';
 
 import { closeModal } from './closeModal.js';
 import { onfavoriteClick } from './addToFavList.js';
